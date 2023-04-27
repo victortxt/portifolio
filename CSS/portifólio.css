@@ -170,7 +170,7 @@ footer a{
     }
 
     h2{
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     li{
@@ -181,7 +181,7 @@ footer a{
         color: var(--primaria-color);
         line-height: 1.5em;
         margin-top: 15px;
-        font-size: 2em;
+        font-size: 1em;
     }
 
     .contents{
