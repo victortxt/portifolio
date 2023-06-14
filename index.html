@@ -1,74 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/portifólio.css">
-    <title>Portifólio</title>
+    <script src="Js/script.Js" defer></script>
+    <title>portifólio</title>
 </head>
 <body>
+    <header>
+        <h1>Portifólio</h1>
+    </header>
     <main>
-        <section class="contents">
-            <section class="flex">
-                <div class="items-flex">
-                    <img src="img/gif.png" alt="">
-                </div>
-                <div class="items-flex">
-                    <p><h1 id="title">Hi,Im Victor</h1></p>
-                </div>
+        <section class="containers" id="info">
+            <img src="img/gif.png" alt="">
+            <p>Olá, eu sou Victor, um desenvolvedor Front-end apaixonado por criar interfaces bonitas e funcionais para a web. Meu interesse por desenvolvimento web começou há algum tempo e, desde então, tenho dedicado bastante tempo a estudar as tecnologias usadas no Front-end.</p>
+
+            <p>Eu tenho habilidades em HTML, CSS e JavaScript e estou sempre buscando aprender mais sobre essas tecnologias e suas melhores práticas. Minha paixão pelo Front-end me levou a criar projetos pessoais para aprimorar minhas habilidades e experimentar novas ideias.</p>
+
+            <p>Além de minha habilidade técnica, estou sempre me esforçando para criar sites e aplicações web acessíveis e responsivos, oferecendo uma experiência única aos usuários. Estou sempre buscando maneiras de melhorar e expandir meu conhecimento em Front-end e estou animado para ver onde essa jornada me levará.</p>
+        </section>
+
+        <section class="containers" >
+            <h2>Projetos</h2>
+            <section id="container-projeto">
+                <section id="cards">
+                    
+                    <div class="card" id="card-left">
+                        <h3>titulo</h3>
+                        <p>texto</p>
+                        <button>
+                            <a href="#" id="btnLeftLink">Teste</a>
+                        </button>
+                    </div>
+
+                    <div class="card" id="card-right">
+                        <h3>titulo</h3>
+                        <p>texto</p>
+                        <button>
+                            <a href="#" id="btnRightLink">Teste</a>
+                        </button>
+                    </div>
+
+                    <div class="card" id="card-center">
+                        <h3>titulo</h3>
+                        <p>texto</p>
+                        <button>
+                            <a href="#" id="btnCenterLink">Teste</a>
+                        </button>
+                    </div>
+                    
+                    <div id="btn-container">
+                        <button id='buttonLeft' class="btn">
+                            &lt;
+                        </button>
+                        <button id='buttonRight' class="btn">
+                            &gt;
+                        </button>
+                    </div>
+
+                </section>
             </section>
-        </section>
-        <section class="contents">
-            <h1>Sobre mim</h1>
-            <p>Eu sou um desenvolvedor front-end que trabalha com tecnologias HTML, CSS e JavaScript e atualmente estou aprendendo React. Além disso, possuo certificação em desenvolvimento web pelo Senac e continuo me aprimorando através de cursos online na Udemy. Minha paixão pela programação me motiva a buscar constantemente novos conhecimentos e aperfeiçoar minhas habilidades.</p>
-        </section>
-        <section class="contents">
-            <h1>Projetos</h1>
-            <section id="container-card">
-                <section class="card">
-                    <h2>Calculadora</h2>
-                    <p>Apresentamos nossa calculadora online, desenvolvida com HTML, CSS e JavaScript. Fácil de usar em qualquer dispositivo, é uma ferramenta essencial para cálculos básicos. Aproveite!</p>
-                    <button><a href="../projetos/calculadora/index.html">Veja Mais</a></button>
-                </section>
-                <section class="card">
-                    <h2>Listar Tarefas</h2>
-                    <p>Confira nosso projeto para gerenciamento de tarefas! Desenvolvido com HTML, CSS e JavaScript, você pode facilmente listar, remover, editar e adicionar tarefas. Uma ferramenta útil para organizar seu dia a dia. Experimente agora!</p>
-                    <button><a href="../projetos/lista_tarefa/index.html">Veja Mais</a></button>
-                </section>
-                <section class="card">
-                    <h2>Em breve</h2>
-                    <p>Um projeto misterioso e empolgante está em desenvolvimento! Em breve, vamos revelar uma incrível ferramenta que vai transformar a forma como você trabalha. Aguarde as novidades!</p>
-                    <button><a href="">Veja Mais</a></button>
-                </section>
-                <section class="card">
-                    <h2>Em breve</h2>
-                    <p>Um projeto misterioso e empolgante está em desenvolvimento! Em breve, vamos revelar uma incrível ferramenta que vai transformar a forma como você trabalha. Aguarde as novidades!</p>
-                    <button><a href="">Veja Mais</a></button>
-                </section>
-                <section class="card">
-                    <h2>Projetos</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, rerum?</p>
-                    <button><a href="">Veja Mais</a></button>
-                </section>
-            </section>
-        </section>
-        <section class="contents">
-            <h1>Certificações</h1>
-            <article class="topic-cerfication">
-                <ul>
-                    <li>Udemy</li>
-                    <li>Senac</li>
-                </ul>
-            </article>
         </section>
     </main>
-    <footer>
-        <h2>Contact</h2>
-        <ul>
-            <li>Linkedin: <a href="https://bit.ly/3V8pwEy">aqui</a></li>
-            <li>Tel: <span class="text-white">+55 11 945566085</span></li>
-        </ul>
-    </footer>
 </body>
 </html>
