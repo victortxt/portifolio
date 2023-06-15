@@ -64,7 +64,7 @@ img{
     }
 }
 
-#info > p{
+#info  p{
     background: rgb(48, 48, 144);
     color: white;
     padding: 15px;
@@ -78,7 +78,7 @@ img{
     margin-top: 10px;
 }
 
-#info > p:hover, p:checked{
+#info p:hover, p:checked{
     background-color: white;
     transition: all .4s cubic-bezier(0.23, 1, 0.320, 1);
     color: rgb(79, 79, 224);
@@ -275,6 +275,12 @@ img{
     color: black;
     padding: 5px;
     border-radius: 10px;
+}
+
+.p-container{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
 }
 
 @media screen and (min-width: 600px) {
