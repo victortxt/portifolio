@@ -15,9 +15,9 @@ const buttonRight = document.querySelector('#buttonRight');
 
 
 let contentCard = Array(
-    Array('Password Generator', 'JS, HTML, CSS', 'https://victortxt.github.io/projetos/Password%20generator/index.html'),
-    Array('Formulario de cartão', 'JS, HTML CSS', 'https://victortxt.github.io/projetos/Interactive%20card%20details%20form/index.html'),
-    Array('Caderno Virtual', 'texto3', 'link3'),
+    Array('Password Generator', 'HTML, CSS, JS', 'https://victortxt.github.io/projetos/Password%20generator/index.html'),
+    Array('Formulario de cartão', 'HTML, CSS, JS', 'https://victortxt.github.io/projetos/Interactive%20card%20details%20form/index.html'),
+    Array('Relógio Virtual', 'HTML, CSS, JS', 'https://victortxt.github.io/projetos/relogio_virtual/index.html'),
     Array('Caderno Virtual', 'HTML, CSS, JS', 'https://victortxt.github.io/projetos/caderno-virtual/index.html'),
     Array('Letreco - (Jogo de palavras)', 'HTML, CSS, JS', 'https://victortxt.github.io/projetos/letreco/index.html'),
     Array('Lista Tarefa', 'HTML, CSS, JS', 'https://victortxt.github.io/projetos/tarefas1/index.html'),
